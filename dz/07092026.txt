@@ -1,0 +1,17 @@
+Прочтите осноывы HTMLhttps://developer.mozilla.org/ru/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+--------------------------
+
+Сверстайте HTML страницу.
+На ней:
+Минимально необходимая структура (head, body и прочие теги).
+Навигация (ссылки на внутренние страницы и на внешний ресурс).
+Якори.
+Списки.
+Заголовки.
+Параграфы.
+Строчные и блочные элементы.
+Изображения.
+Атрибуты.
+------------------------------------
+Прочтите о HTML формах.
+https://developer.mozilla.org/ru/docs/Web/HTML/Reference/Elements/input
