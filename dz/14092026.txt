@@ -1,0 +1,9 @@
+https://developer.mozilla.org/ru/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics
+
+Сверстайте пример таблицы.
+Стилизуйте таблицу (Используйте css стили - разделите ячейки линиями,
+измените шрифт ячеек).
+Верхний ряд ячеек (жирный шрифт).
+Продемонстрируйте три способа доставки css стилей.
+
+https://developer.mozilla.org/ru/docs/conflicting/Learn_web_development/Core/Styling_basics
