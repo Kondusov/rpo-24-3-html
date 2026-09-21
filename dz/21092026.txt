@@ -1,0 +1,21 @@
+https://developer.mozilla.org/ru/docs/Web/CSS/Reference/Properties/display
+https://developer.mozilla.org/ru/docs/Web/CSS/Reference/Properties/position
+https://developer.mozilla.org/ru/docs/Web/CSS/Reference/Properties/float
+https://developer.mozilla.org/ru/docs/Web/CSS/Reference/Selectors/Pseudo-classes
+
+
+Прочтите и попрактикуйтесь в позиционировании элементов.
+Используйте css свойства: display, position, float.
+Разберите CSS свойство box-sizing.
+Будьте готовы устно или письменно продемонстрировать полученные знания по этим темам.
+Сверстайте навигационное меню (должно прилипать к верху страницы при скролле)
+Три колонки с текстом (делят между собой равномерно - ширину страницы).
+Четыре колонки с текстом.
+Блок на всю ширину цвет фона задайте, в этом блоке - четыре кружка по углам.
+Стрелка "наверх" - ездит с нами при скролле и при нажатии перебрасывает наверх.
+Подвал (footer) - ссылки, и тектс копирайт.
+Подвал зафиксирован внизу страницы (даже если мало контента).
+Используйте hover эффект, в любом элементе.
+-----------------------------
+Напоминаю! Ссылка на репозиторий с прогрессом нашей работы
+https://github.com/Kondusov/rpo-24-3-html
