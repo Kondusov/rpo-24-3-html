@@ -34,6 +34,9 @@ https://developer.mozilla.org/ru/docs/Web/HTML/Attributes
 
 https://developer.mozilla.org/ru/docs/Web/CSS
 CSS: каскадные таблицы стилей
+
+https://developer.mozilla.org/ru/docs/Web/CSS/Reference/Selectors/Pseudo-classes
+Псевдоклассы
 //////////////////////////////////////////////////////////////////////
 
 Список тем и вопросов, встречающихся на зачете:
@@ -118,5 +121,7 @@ HTML комментарии
 - z-index
 - visibility: hidden
 - display: none
+- hover эффект
 - form (знать все элементы формы и атрибуты этих элементов)
+псевдоклассы (:first-of-type, last-of-type, nth-of-type)
 https://developer.mozilla.org/ru/docs/Web/HTML/Reference/Elements/form

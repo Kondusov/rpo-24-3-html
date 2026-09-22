@@ -1,0 +1,10 @@
+https://developer.mozilla.org/ru/docs/Web/CSS/Reference/Properties/z-index
+
+Прочесть и продемонстрировать на уроке, применение следующих свойств.
+Сверстайте дома небольшой пример.
+Свойства:
+- visibility: hidden
+- display: none
+- opacity
+- z-index (несколько элементов частично наслаиваются друг на друга
+position absolute)

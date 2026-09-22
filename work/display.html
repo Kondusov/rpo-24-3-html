@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <style>
+    *{
+        box-sizing: border-box;
+    }
     html{
         scroll-behavior: smooth;
     }
@@ -19,6 +22,20 @@
     }
     .flex-container{
         display: flex;
+    }
+    .flex-container p:first-of-type{
+        font-style: italic;
+        color: brown;
+    }
+    .flex-container p:nth-of-type(2){
+        color: chocolate;
+    }
+    .flex-container h5:nth-of-type(2){
+        color: chocolate;
+    }
+    .flex-container p:last-of-type{
+        font-style: italic;
+        color: rgb(5, 84, 243);
     }
     nav{
         position: sticky;
@@ -35,13 +52,23 @@
         bottom: 15px;
         background-color: brown;
         color: white;
+        z-index: 2;
+    }
+    button:hover{
+         background-color: white;
+          color: red;
+          transition: 0.5s;
+          cursor: pointer;
     }
     footer{
+        width: 100%;
         background-color: black;
         color: white;
-        position: sticky;
+        /* position: sticky; */
         bottom: 0;
         left: 0;
+        padding: 0 90px;
+        box-sizing: border-box;
     }
 </style>
 <body>
@@ -62,6 +89,9 @@
     </section>
     <hr>
     <section class="flex-container">
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <h5>Lorem ipsum dolor sit amet.</h5>
          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veritatis mollitia repellendus ea quia ut porro recusandae, atque rem, non neque voluptatum tempora sequi nisi minima quasi nulla dignissimos. Velit!</p>
          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veritatis mollitia repellendus ea quia ut porro recusandae, atque rem, non neque voluptatum tempora sequi nisi minima quasi nulla dignissimos. Velit!</p>
          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veritatis mollitia repellendus ea quia ut porro recusandae, atque rem, non neque voluptatum tempora sequi nisi minima quasi nulla dignissimos. Velit!</p>
