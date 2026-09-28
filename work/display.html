@@ -70,6 +70,18 @@
         padding: 0 90px;
         box-sizing: border-box;
     }
+    .combinator-var p{
+        color: brown;
+    }
+    .combinator-var>p{
+        color: rgb(52, 255, 2);
+    }
+    h1 + section{
+        font-family: monospace;;
+    }
+    #p1, #p2, #p3{
+        font-size: 20px;
+    }
 </style>
 <body>
     <span id="up_page"></span>
@@ -92,9 +104,18 @@
         <h5>Lorem ipsum dolor sit amet.</h5>
         <h5>Lorem ipsum dolor sit amet.</h5>
         <h5>Lorem ipsum dolor sit amet.</h5>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veritatis mollitia repellendus ea quia ut porro recusandae, atque rem, non neque voluptatum tempora sequi nisi minima quasi nulla dignissimos. Velit!</p>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veritatis mollitia repellendus ea quia ut porro recusandae, atque rem, non neque voluptatum tempora sequi nisi minima quasi nulla dignissimos. Velit!</p>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veritatis mollitia repellendus ea quia ut porro recusandae, atque rem, non neque voluptatum tempora sequi nisi minima quasi nulla dignissimos. Velit!</p>
+         <p id="p1" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veritatis mollitia repellendus ea quia ut porro recusandae, atque rem, non neque voluptatum tempora sequi nisi minima quasi nulla dignissimos. Velit!</p>
+         <p id="p2" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veritatis mollitia repellendus ea quia ut porro recusandae, atque rem, non neque voluptatum tempora sequi nisi minima quasi nulla dignissimos. Velit!</p>
+         <p id="p3" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veritatis mollitia repellendus ea quia ut porro recusandae, atque rem, non neque voluptatum tempora sequi nisi minima quasi nulla dignissimos. Velit!</p>
+    </section>
+    <section class="combinator-var">
+            <p>Текст параграфов (непосредственные потомки section)</p>
+            <p>
+                <div><p>Это div в глубине</p></div>
+                <div><p>Это div в глубине</p></div>
+                <div><p>Это div в глубине</p></div>
+            </p>
+            <p>Текст параграфов (непосредственные потомки section)</p>
     </section>
     <footer><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, est non ipsam fugiat error consequatur ab. Eum nisi culpa error voluptates repellat facere, minima labore non quam saepe ut sapiente.</p></footer>
 </body>
