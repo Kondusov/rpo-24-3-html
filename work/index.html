@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pochaevsk&display=swap" rel="stylesheet"> -->
 </head>
 <body><nav>
     <a href="/">На главную</a>
@@ -35,9 +38,41 @@
 </ul>
 <p>Первый параграф </p>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident illo ab repellendus atque ullam velit accusamus, vel maiores excepturi tenetur nesciunt? Aperiam odit quos pariatur, incidunt commodi sunt. Laboriosam, ullam.</p>
-
+<figure>
+  <h1>3d CSS GLOW</h1>
+  <h1>3d CSS GLOW</h1>
+  <h1>3d CSS GLOW</h1>
+  <h1>3d CSS GLOW</h1>
+  <h1>3d CSS GLOW</h1>
+  <h1>3d CSS GLOW</h1>
+  <h1>3d CSS GLOW</h1>
+  <h1>3d CSS GLOW</h1>
+  <h1>3d CSS GLOW</h1>
+  <h1>3d CSS GLOW</h1>  
+</figure>
+<link rel="stylesheet" href="css/animation.css">
 <footer id="f">
     <p>2026 год</p>
 </footer>
+<style>
+    #f{overflow: hidden; }
+    #f p{
+        animation-duration: 5s;
+        animation-name: str-run;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+}
+
+@keyframes str-run{
+  from {
+    transform: translateX(-20%) rotateX(0deg);
+}
+
+to {
+    transform: translateX(100%) rotateX(180deg);
+    width: 100%;
+  }
+}
+</style>
 </body>
 </html>
