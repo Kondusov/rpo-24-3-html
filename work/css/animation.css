@@ -7,14 +7,16 @@ body {
  body{
     font-family: 'slavyan';
  }
-@font-face {
-  font-family: 'slavyan'; /* Имя, под которым вы будете использовать шрифт */
-  src: url('../fonts/Pochaevsk-Regular.ttf') format('truetype');
-  font-weight: 400;       /* Толщина шрифта */
-  font-style: normal;     /* Стиль (normal/italic) */
-  font-display: swap;     /* Быстрый показ текста запасным шрифтом до загрузки */
-}
-
+ /* подключили локально */
+ @font-face {
+     font-family: 'slavyan'; /* Имя, под которым вы будете использовать шрифт */
+     src: url('../fonts/Pochaevsk-Regular.ttf') format('truetype');
+     font-weight: 400;       /* Толщина шрифта */
+     font-style: normal;     /* Стиль (normal/italic) */
+     font-display: swap;     /* Быстрый показ текста запасным шрифтом до загрузки */
+    }
+    /*End- подключили локально */
+    
 @import url(https://fonts.googleapis.com/css?family=Concert+One);
 
 h1 {
@@ -40,7 +42,7 @@ h1 {
   overflow:hidden;
   text-align:center;
 } */
-
+h2{text-shadow: 1px -1px 0px #f70418;}
 figure {
   animation:wobble 5s ease-in-out infinite;
   transform-origin:center center;
